@@ -1,0 +1,13 @@
+<suite name="Test_3">
+    <test name="goToHomePage">
+        <classes>
+            <class name="pl.b2b.net.automationPractice.pages.homePage.TestHomePage">
+                    <methods>
+                        <exclude name="goToWomenPage" />
+                        <exclude name="goToCategoryDresses" />
+                        <exclude name="goToCategoryTshirts" />
+                    </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
